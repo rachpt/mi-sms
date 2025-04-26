@@ -29,6 +29,7 @@ export default function runSmsTool() {
       refreshButton.click()
     } else {
       // 否则尝试重新加载页面
+      window.open('https://i.mi.com/sms/h5#/full', '_self')
       window.location.reload()
     }
   })
