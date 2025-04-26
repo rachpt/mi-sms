@@ -1,0 +1,37 @@
+{
+  "name": "mi-sms",
+  "description": "小米短信过滤插件",
+  "version": "2025.04.26.1959",
+  "author": "rachpt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@sec-ant/gm-fetch": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "@types/xmlhttprequest": "^1.8.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.2",
+    "vite-plugin-monkey": "^5.0.8"
+  },
+  "prettier": {
+    "semi": false,
+    "tabWidth": 2,
+    "useTabs": false,
+    "printWidth": 120,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "vueIndentScriptAndStyle": true,
+    "htmlWhitespaceSensitivity": "ignore"
+  }
+}

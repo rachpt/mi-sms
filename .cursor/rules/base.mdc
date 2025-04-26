@@ -1,0 +1,9 @@
+---
+description: 项目基础说明
+globs: 
+---
+
+# base rule content
+
+- 项目使用 vite-plugin-monkey 插件构建页面油猴插件
+- 使用TS编写，使用 es2020 语法编写
