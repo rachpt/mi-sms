@@ -289,7 +289,7 @@ function showToast(message: string) {
 }
 
 function handleBeforeSendCallback(request: any): any {
-  request.url.searchParams.set('limit', '200')
+  request.url.searchParams.set('limit', '10000')
   return request
 }
 

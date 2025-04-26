@@ -1,7 +1,7 @@
 {
   "name": "mi-sms",
   "description": "小米短信过滤插件",
-  "version": "2025.04.26.1959",
+  "version": "2025.04.26.2027",
   "author": "rachpt",
   "private": true,
   "type": "module",
